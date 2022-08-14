@@ -1,2 +1,2 @@
 # mini-projects
-A collection of mini projects for CF 2022
+A collection of ten mini-projects created for the Coding Factory 2022
