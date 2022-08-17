@@ -2,14 +2,13 @@
 A collection of ten mini-projects created for the Coding Factory 2022
 
 Project 1
-Αναπτύξτε ένα πρόγραμμα σε Java που να διαβάζει από ένα αρχείο ακέραιους αριθμούς μέχρι να βρει την τιμή -1
-(το αρχείο πρέπει να περιέχει περισσότερους από 6 αριθμούς και το πολύ 49 αριθμούς) με τιμές από 1 έως 49.
-Τους αριθμούς αυτούς τους εισάγει σε ένα πίνακα, τον οποίο ταξινομεί (π.χ. με την Arrays.sort()).
-Στη συνέχεια, το πρόγραμμα παράγει όλες τις δυνατές εξάδες (συνδυασμούς 6 αριθμών).
-Ταυτόχρονα και αμέσως μετά την παραγωγή κάθε εξάδας ‘φιλτράρει’ κάθε εξάδα ώστε να πληροί τα παρακάτω κριτήρια:
-1) Να περιέχει το πολύ 4 άρτιους, 2) να περιέχει το πολύ 4 περιττούς, 3) να περιέχει το πολύ 2 συνεχόμενους,
-4) να περιέχει το πολύ 3 ίδιους λήγοντες, 5) να περιέχει το πολύ 3 αριθμούς στην ίδια δεκάδα.
-Τέλος, εκτυπώνει τις τελικές εξάδες σε ένα αρχείο με όνομα της επιλογής σας και κατάληξη.txt.
+Develop a Java app that will read integers from a file until it finds the value -1
+(the file must contain more than 6 numbers and a max of 49 numbers) with a range from 1 to 49.
+The numbers must be added to an array which will then be sorted (e.g. with Arrays.sort()).
+Then, the app will produce all possible groupings of 6 numbers. After each group, it's going to filter it so that it adheres to the following criteria:
+1) It contains at least 4 even numbers, 2) it contains a maximum of 4 odd numbers, 3) it has a max of 2 numbers in sequence,
+4) it has at most 3 numbers that have the same ending, 5) it has at most 3 numbers in the same ten.
+Then, it prints out the groups in a txt file.
 
 
 Project 2
