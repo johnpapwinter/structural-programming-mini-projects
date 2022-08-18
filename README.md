@@ -27,14 +27,12 @@ Main() must show a menu to the user and the user will be able to select the oper
 
 Project 3
 ----------------------------------------
-Αναπτύξτε μία εφαρμογή που διαβάζει έναν-έναν τους χαρακτήρες ενός αρχείου και
-τους εισάγει σε ένα πίνακα 256x2. Κάθε θέση του πίνακα είναι επομένως ένας
-πίνακας δύο θέσεων, όπου στη 1η θέση αποθηκεύεται ο χαρακτήρας που έχει
-διαβαστεί (αν δεν υπάρχει ήδη στον πίνακα) και στη 2η θέση αποθηκεύεται το πλήθος
-των φορών που έχει διαβαστεί (βρεθεί) κάθε χαρακτήρας. Χαρακτήρες
-θεωρούνται και τα κενά και οι αλλαγές γραμμής και γενικά οποιοσδήποτε UTF-8 χαρακτήρας.
-Στο τέλος η main() παρουσιάζει στατιστικά στοιχεία για κάθε χαρακτήρα
-όπως η συχνότητα εμφάνισής του στο κείμενο ταξινομημένα ανά χαρακτήρα και ανά συχνότητα εμφάνισης.
+Create an app that reads one by one the characters of a file and enters them in a 256x2 array.
+The array is going to have two columns, the character will be placed in the first column
+and the number of instances of each character appears in the file will be placed in the second column.
+Spaces, new lines and any UTF-8 character is considered a character for the purposes of this app.
+The main() will print out the statistics for each character, for example the frequency and the user
+will be able to see them either sorted by character or sorted by frequency.
 
 
 Project 4
