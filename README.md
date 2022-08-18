@@ -7,21 +7,22 @@ Develop a Java app that will read integers from a file until it finds the value 
 (the file must contain more than 6 numbers and a max of 49 numbers) with a range from 1 to 49.
 The numbers must be added to an array which will then be sorted (e.g. with Arrays.sort()).
 Then, the app will produce all possible groupings of 6 numbers. After each group, it's going to filter it so that it adheres to the following criteria:
-1) It contains at least 4 even numbers, 2) it contains a maximum of 4 odd numbers, 3) it has a max of 2 numbers in sequence,
-4) it has at most 3 numbers that have the same ending, 5) it has at most 3 numbers in the same ten.
+1) It contains at least 4 even numbers
+2) it contains a maximum of 4 odd numbers
+3) it has a max of 2 numbers in sequence,
+4) it has at most 3 numbers that have the same ending
+5) it has at most 3 numbers in the same ten.
 Then, it prints out the groups in a txt file.
 
 
 Project 2
 ----------------------------------------
-Δημιουργήστε μία εφαρμογή επαφών για ένα κινητό τηλέφωνο, η οποία μπορεί να περιέχει μέχρι 500 επαφές.
-Κάθε επαφή έχει Επώνυμο, Όνομα και Τηλέφωνο.
-Για να αποθηκεύεται τις επαφές χρησιμοποιήστε ένα δισδιάστατο πίνακα 500x3 όπου στη 1η θέση κάθε επαφής
-θα αποθηκεύεται το Επώνυμο, στη 2η θέση το Όνομα και στη 3η θέση το τηλέφωνο, όλα ως String.
-Υλοποιήστε τις βασικές CRUD πράξεις: Αναζήτηση Επαφής με βάση το τηλέφωνο,
-Εισαγωγή Επαφής (αν δεν υπάρχει ήδη), Ενημέρωση Επαφής (εάν υπάρχει), Διαγραφή Επαφής (εάν υπάρχει).
-Η main() θα πρέπει να εμφανίζει ένα μενού στον χρήστη, οποίος θα επιλέγει την κατάλληλη πράξη
-ή Έξοδο από την εφαρμογή και με την κατάλληλη καθοδήγηση της εφαρμογής θα επιτελεί την επιλεγμένη πράξη.
+Create an app for a mobile phone that can store up to 500 contacts. Each contact must have a first name, last name, and number.
+To store the contacts, you must use a 500x3 array which stores the last name in the first column, the name in the second,
+and the number in the third, all as a String.
+Apply the basic CRUD operations: Search contact by number, insert contact (if it doesn't alreay exist,
+update contact (if it exists), delete contact (if it exists).
+Main() must show a menu to the user and the user will be able to select the operation or exit the app.
 
 
 Project 3
