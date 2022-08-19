@@ -37,12 +37,10 @@ will be able to see them either sorted by character or sorted by frequency.
 
 Project 4
 ----------------------------------------
-Έστω ένας δισδιάστατος πίνακας που περιέχει τα στοιχεία άφιξης και αναχώρησης αυτοκινήτων
-σε μορφή arr[][] = {{1012, 1136}, {1317, 1417}, {1015, 1020}} Αναπτύξτε μία εφαρμογή που διαβάζει
-να εκτυπώνει τον μέγιστο αριθμό αυτοκινήτων που είναι σταθμευμένα το ίδιο χρονικό διάστημα.
-Για παράδειγμα, στον παραπάνω πίνακα το αποτέλεσμα θα πρέπει να είναι: 2. Το 1ο αυτοκίνητο αφίχθη στις 10:12
-και αναχώρησε στις 11:36, το 3ο αυτοκίνητο αφίχθη στις 10:15 και αναχώρησε στις 10:20.
-Επομένως, το 1ο και το 3ο αυτοκίνητο ήταν παρόντα το ίδιο χρονικό διάστημα.
+You have a 2D array that contains data on car arrival and departure. The array has a format of arr[][] = {{1012, 1136}, {1317, 1417}, {1015, 1020}}.
+Develop an app that reads and prints out the maximum number of cars that are parked concurently.
+For example, in the array above the max number is 2: The first car came in 10:12 and left in 11:36, the third one came in 10:15 and left in 10:20.
+Thus, the first and 3rd cars were present at the same time.
 
 
 Project 5
