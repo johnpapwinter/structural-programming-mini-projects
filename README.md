@@ -53,16 +53,10 @@ For example, if we provide the number 8 as a parameter, the method should return
 
 Project 6
 ----------------------------------------
-Έστω ένας πίνακας n ακεραίων. Τότε ο maximum sub subarray ο είναι ο συνεχόμενος
-υποπίνακας (contiguous subarray - δυνητικά κενό) με το μεγαλύτερο άθροισμα.
-Σχεδιάστε έναν γραμμικό αλγόριθμο (με πολυπλοκότητα O(n)) για να επιλύσετε τα
-παραπάνω πρόβλημα. Για παράδειγμα, αν έχουμε τον πίνακα {−2, 1, −3, 4, −1, 2, 1,
-−5, 4} τότε ο συνεχόμενος υποπίνακας με το μέγιστο άθροισμα είναι ο {4, −1, 2, 1},
-του οποίου το άθροισμα είναι 6.
-Δώστε μια λύση τριών μερών της ακόλουθης μορφής:
-(α) Περιγράψτε (με λόγια και σχήματα) ξεκάθαρα τον αλγόριθμό σας.
-(β) Γράψτε τον κώδικα σε Java.
-(γ) Δείξτε ότι η πολυπλοκότητα χρόνου είναι O(n)
+You have an array of integers. Then, the maximum sub subarray is the continuous subarray that has
+the greatest sum. Implement a linear algorithm (having a 0(n)) to solve the problem.
+For example, if we have the array {−2, 1, −3, 4, −1, 2, 1, −5, 4},
+then the continuous subarray with the max sum is {4, −1, 2, 1} the sum of which is 6.
 
 
 Project 7
