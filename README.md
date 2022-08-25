@@ -61,14 +61,12 @@ then the continuous subarray with the max sum is {4, −1, 2, 1} the sum of whic
 
 Project 7
 ----------------------------------------
-Γράψτε δύο μεθόδους που αφορούν την αντιγραφή δισδιάστατων πινάκων. Μία μέθοδο int[][] shallowCopy(int[][] arr)
-που αντιγράφει ένα δισδιάστατο πίνακα αλλά μόνο τις τιμές του βασικού πίνακα που είναι αναφορές στους πίνακες
-που είναι στοιχεία του βασικού πίνακα. Και μία μέθοδο int[][] deepCopy(int[][] arr).
-Γράψτε μία main που να δείχνετε γιατί το shallow copy δεν δουλεύει όπως θα θέλαμε,
-αφού αλλάζοντας ένα στοιχείο ενός πίνακα από δύο για παράδειγμα copies, αλλάζει το στοιχείο και στον άλλο πίνακα,
-αφού κατά βάση πρόκειται για ένα και μόνο κοινό στοιχείο (αφού έχει γίνει shallow copy).
-Δείξτε και την περίπτωση του deep copy. Δείξτε ότι δουλεύει όπως θα θέλαμε. Δηλαδή δεν επηρεάζουν
-οι αλλαγές στοιχείων το κάθε copy, το οποίο τώρα είναι ανεξάρτητο.
+Write two methods that copy 2D arrays. An int[][] shallowCopy(int[][] arr) method
+that copies a 2D array, but that the elements of the array are references to the original array.
+Write also an int[][] deepCopy(int[][] arr) method. Write a main() method that demostrates why shallow copy
+does not function as we want it to by changing an elements of an array of the copied array.
+Demonstrate that the deep copy works by changing an element of the original array showing
+that the copied array remains unchanged.
 
 
 Project 8
