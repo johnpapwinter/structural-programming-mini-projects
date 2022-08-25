@@ -71,17 +71,12 @@ that the copied array remains unchanged.
 
 Project 8
 ----------------------------------------
-Αναπτύξτε ένα παιχνίδι Τρίλιζα, όπου δύο παίκτες παίζουν Χ και Ο (ή 1 και 2 αν θέλετε
-να υλοποιήσετε με πίνακα ακεραίων και όχι με πίνακα char) και κερδίζει ο παίκτης
-που έχει συμπληρώσει τρία ίδια σύμβολα ή αριθμούς σε οποιαδήποτε διάσταση του πίνακα, οριζόντια, κάθετα ή διαγώνια.
-Η main() μπορεί να ελέγχει τη ροή του παιχνιδιού, όπως ποιος παίκτης παίζει κάθε
-φορά (εναλλαγή μεταξύ των δύο παικτών), να διαβάζει από το stdin το σύμβολο που
-δίνει ο κάθε παίκτης και να εμφανίζει με γραφικό τρόπο (όπως είχαμε δει σε
-αντίστοιχο παράδειγμα στην τάξη) την τρίλιζα μετά από κάθε κίνηση κάθε παίκτη.
-Ενώ, μπορείτε να δημιουργήσετε και μία μέθοδο που να ελέγχει (μετά από κάθε
-κίνηση) αν ο παίκτης που έκανε την κίνηση έκανε τρίλιζα.
-Το πρόγραμμα θα πρέπει να λαμβάνει υπόψη την περίπτωση ισοπαλίας όπως και να
-μην επιτρέπει ένας παίκτης να παίξει σε θέση που είναι ήδη κατειλημμένη.
+Develop a tic-tac-toe game where two players play with X and O. The player that has three symbols
+that are in sequence winds (be they horizontically, vertically, or diagonically).
+The main() method can control the flow of the game (for example which player's turn it is),
+read from stdin the symbol of each player and display the board after each player's move.
+Create also a method that checks if the game. The app must take into account a draw result
+and not allow a player to place his/her symbol in an already occupied spot.
 
 
 Project 9
