@@ -81,19 +81,14 @@ and not allow a player to place his/her symbol in an already occupied spot.
 
 Project 9
 ----------------------------------------
-Μία από τις πρώτες εφαρμογές των Η/Υ ήταν η κρυπτογράφηση. Ένας απλός τρόπος κρυπτογράφησης
-είναι η κωδικοποίηση κάθε χαρακτήρα με ένα ακέραιο με βάση ένα κλειδί κρυπτογράφησης.
-Μία τέτοια μέθοδος κρυπτογράφησης περιγράφεται στη συνέχεια.
-Κωδικοποίησε τον 1ο χαρακτήρα του μηνύματος με την ακέραια τιμή που αντιστοιχεί
-σε αυτόν (από τον κώδικα ASCII). Κωδικοποίησε του επόμενους χαρακτήρες:
-(α) προσθέτοντας την ακέραια ASCII τιμή του καθένα από αυτούς με τον κωδικό του προηγούμενού του,
-(β) παίρνοντας το υπόλοιπο της διαίρεσης του αθροίσματος αυτού διά μία σταθερά.
-Η σταθερά αυτή ονομάζεται κλειδί (key) κρυπτογράφησης και (υποτίθεται πως) είναι μυστική.
-Υποθέτουμε πως τα μηνύματα τελειώνουν με τον χαρακτήρα #.
-Γράψτε ένα πρόγραμμα java που να υλοποιεί τον αλγόριθμο κρυπτογράφησης έτσι
-ώστε το κωδικοποιημένο μήνυμα που προκύπτει να είναι μία ακολουθία ακεραίων που τελειώνει με -1.
-Γράψτε και τον αλγόριθμο αποκρυπτογράφησης που λαμβάνει ως είσοδο μία ακολουθία ακεραίων
-που τελειώνει με -1 και υπολογίζει το αρχικό μήνυμα. 
+Write a simple crypto app. Encode the 1st character of the message with the ASCII value
+corresponding to it. Encode the next characters as follows:
+(a) adding the integer value of each one with the value of the previous,
+(b) using the mod of the division of the the sum divided by a constant.
+This constant is called key and is a secret. Assume that all messages end with the character #.
+Develop a java app that uses the cryptographic algorithm so that the coded message
+is a sequence of integers ending with -1. Implement the decryption algorithm as well
+that receives a sequence of integers ending with -1 and decrypts the original message.
 
 
 Project 10
