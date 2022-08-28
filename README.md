@@ -93,14 +93,7 @@ that receives a sequence of integers ending with -1 and decrypts the original me
 
 Project 10
 ----------------------------------------
-Έστω ένα θέατρο που έχει θέσεις όπου η κάθε θέση περιγράφεται με ένα χαρακτήρα
-που είναι η στήλη και ένα αριθμό που είναι η σειρά. Για παράδειγμα, η θέση C2
-βρίσκεται στη 2η σειρά και 3η στήλη.
-Αναπτύξτε ένα πρόγραμμα διαχείρισης θεάτρου με 30 σειρές και 12 στήλες. Πιο
-συγκεκριμένα γράψτε μία μέθοδο void book(char column, int row) που να κάνει book
-μία θέση αν δεν είναι ήδη booked και μία μέθοδο void cancel(char column, int row)
-που να ακυρώνει την κράτηση μία θέσης αν είναι ήδη booked.
-Hint. Υποθέστε ότι ο δισδιάστατος πίνακας που απεικονίζει το θέατρο είναι ένα
-πίνακας από boolean, όπου το true σημαίνει ότι η θέση είναι booked και false ότι δεν
-είναι booked. Αρχικά όλες οι θέσεις πρέπει να είναι non-booked. 
- 
+Develop an app for a theater. The theater has seats, each classified by letters and numbers (e.g. C2).
+The theater has a total of 30 rows and 12 columns of seats. Write a void book(char column, int row) method
+that books a seat if it's not already booked and a void cancel(char column, int row) method
+that cancels the booking of a seat if it's already booked. 
